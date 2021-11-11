@@ -33,3 +33,9 @@ Nivel 31:   [for$="ato"]
 Nivel 32:   [for*="obb"]
 
 Imagen: https://raw.githubusercontent.com/jac9325/bootcamp-challenges/fbed02eec4b53d03359e4cd0fb9ec15c7992dc42/Screenshot%202021-11-10%20210545.png
+
+Losselectores en CSS son los selectores de id (#id), los selectores de clases(.class), los selectores de tipo(h1, h2, span) tambien puede haber combinacion de selectores 
+usando simbolos como +,>, ~ ","
+
+La especificidad es el valor que se le da a los selectores cuando hay varias propiedades sobre un mismo elemento entonces css no sabe cual aplicar
+al elemento para eso existe la especificidad lo cual indica que un tipo de selector tiene mas peso o importancia respecto de otros por ejemplo los selectores de id pesan mas, seguidos de los selectores de clases y por ultimo los selectores de tipo como h1, h2
